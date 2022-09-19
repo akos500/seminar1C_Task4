@@ -6,17 +6,17 @@ int a = Convert.ToInt32(Console.ReadLine());
 int b = Convert.ToInt32(Console.ReadLine());
 int c = Convert.ToInt32(Console.ReadLine());
 
-if ((a > b) && (a >c))
+if ((a > b) && (a > c))
     {
-        return a;
+        Console.WriteLine("наибольшее число", a);
     }
 
     else if ((a < b) && (b > c))
     {
-        return b;
+        Console.WriteLine("наибольшее число", b);
     }
 
     else
     {
-        return c;
+        Console.WriteLine("наибольшее число", c);
     }
